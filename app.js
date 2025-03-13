@@ -42,6 +42,9 @@ app.use("/api/forums", forumRoutes);
 app.use("/api/users", userRoutes);
 app.use("/api/admin", adminRoutes);
 
+// add docs as /api/docs route
+app.use("/api/docs", express.static("./views/docs.html"));
+
 // Error handling middleware
 app.use((err, req, res, next) => {
   console.error(err.stack);
