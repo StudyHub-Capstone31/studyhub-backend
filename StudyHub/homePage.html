@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudyHub</title>
+    <link rel="stylesheet" href="homePage.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <!-- Interactive Background Canvas -->
+    <canvas id="background-canvas"></canvas>
+
+    <!-- Theme Toggle -->
+    <div class="theme-toggle">
+        <i class="fas fa-moon"></i>
+        <i class="fas fa-sun"></i>
+        <div class="toggle-ball"></div>
+    </div>
+
+    <div class="header">
+        <h1>StudyHub</h1>
+        <a href="Group%2031%20project%20codes%20file/add-profile-picture-page.html"><img
+                src="./assets/Empower Your Look_ Professional Styling Tips for Success.jpg" alt="Profile"
+                class="profile-img"></a>
+    </div>
+
+    <div class="search-container">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAvxJREFUWEfVl1nITVEUx3+fsRTyZiZDhMiLhAdRpigPiIxlelEomUpKIjyQkJChSKEUQsn0gDxRlCFTREJRMmbaf63rO9/u3Hv2/tx7XOvl3nPuWv/9v2veNVSZ1FQZH/5bQsOAEcBAoAvQGngJPAKuufdngcvl8HaWh/oB24HBAYedBxYAdwN0i6qUIjQd2A00jTjgEzAJOBVhU0e1GKEJwNGE5jcXpp3AReAe8NhC1xNQOOcBDRP6Cu+5+pBKI9QJuAU0N8CHwBjgfokD+gBngPam8xro5UL4JpZUGqHjwHgDkjeGBAKLzFWgg9nuAub/LaEBwHUD+Qr0AJ5EgKoIbsDvdvIT6GaVGAzhe2gLsNCs9X1xMFKt4mFXaZPtcSmwKQbDJ6SSlVckg6zHxOBJd6LLnyNmdAEYHgPgE3oHtDSAFsD7GDDT7WxVqMengIokWHxCypvGZt0I+B6MVKuovvXZHtWXmsVg+IReAG0MQJ8aD7HSFnhuRmoffWMAfEJXLHeEMdpmVAyedMcBJ8zoEDAtBsAntApYYwB73D+dGwNmugeBqfZ9mQvZxhgMn5BGwR0D+GHdVs0xVNSHbpryF6A78CzUWHppnfqAa2YzDOSBTfpXAaAdrVO3M921rijk8ShJI6SkvA20MiQN0lEZs6w/cNr2JJmpGLoCH6PYFPGQMMYCJxNgmvY7gEuJaa8GqgE6FJjjYR1zI2cW8KFchIQzBdgPNIkAVf9RDmmzfAto/GwF1HCDJGtj7A1sMy9kAWpMqCrlTeVeocEqbBsS1VsSJ4tQwVhL2MjETq08a2A5ol16n7fQaZnzVw8luBK9LISycPzfVXG6ACS3SOmszvJUqIdiCUl/HbAixVCNUg0zVSpJSNi6JMxOOVnFovdqvnWkkoR0kPJsr1tHZqaQ0nu1C22Wf6TShAoHbXalvyiFlK5MydtNrldprbJLEqTWAyvzDpl/nkgst6RO3QLyClmSmEaNRlDuVVafVpFrDgUR/BchK0ms6gj9AtUzeyWdz2CzAAAAAElFTkSuQmCC"
+            alt="Search" class="search-icon">
+        <input type="text" class="search-bar" placeholder="Search lecture notes, past questions...">
+    </div>
+
+    
+
+    <div class="main-content">
+        <h2>Welcome to <span class="highlight">StudyHub</span></h2>
+        <p class="welcome-text">Your one-stop platform for academic resources and collaboration</p>
+        <div class="buttons">
+            <a href="Group%2031%20project%20codes%20file/resourcePage.html"><button>
+                <i class="fas fa-book"></i>
+                <span>Browse Resources</span>
+            </button></a>
+            <a href="./DiscussionPage.html"><button>
+                <i class="fas fa-comments"></i>
+                <span>Join Discussions</span>
+            </button></a>
+            <a href="Group%2031%20project%20codes%20file/uploads-downloads.html"><button>
+                <i class="fas fa-upload"></i>
+                <span>Upload Files</span>
+            </button></a>
+            <a href="Group%2031%20project%20codes%20file/announcement-page.html"><button>
+                <i class="fas fa-bullhorn"></i>
+                <span>Latest Announcement</span>
+            </button></a>
+        </div>
+        
+        <div class="quick-stats">
+            <div class="stat-item">
+                <div class="stat-value" data-count="5000">0</div>
+                <div class="stat-label">Students</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-value" data-count="200">0</div>
+                <div class="stat-label">Resources</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-value" data-count="50">0</div>
+                <div class="stat-label">Courses</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="chat-button">
+        <img class="message" src="./assets/Red Messages Icon in 2024-removebg-preview.jpg" alt="">
+    </div>
+
+    <div class="footer">
+        &copy; 2025 StudyHub • <a href="PrivicypolicyPage.html">Privacy Policy</a> • <a href="#">Terms of Service</a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
+
